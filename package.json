@@ -1,8 +1,7 @@
 {
   "name": "react-native-image-viewing",
-  "version": "0.2.1-beta.2",
+  "version": "0.2.1-beta.3",
   "description": "React Native modal component for viewing images as a sliding gallery",
-  "react-native": "src/index.ts",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
@@ -18,6 +17,7 @@
     "image-viewer"
   ],
   "scripts": {
+    "prepare": "yarn build",
     "build": "tsc",
     "postversion": "yarn build"
   },
